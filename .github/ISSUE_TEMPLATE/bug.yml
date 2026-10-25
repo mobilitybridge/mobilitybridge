@@ -1,0 +1,33 @@
+name: Bug
+description: Something is broken
+labels: ["type: bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to …
+        2. Click …
+        3. See …
+    validations:
+      required: true
+  - type: dropdown
+    id: locale
+    attributes:
+      label: Language
+      options:
+        - Arabic
+        - English
+        - Both
+  - type: textarea
+    id: context
+    attributes:
+      label: Screenshots, browser, device
+      description: Never paste real student data or secrets here. This repo is public.

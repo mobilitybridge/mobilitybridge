@@ -1,0 +1,47 @@
+name: Feature / task
+description: Something to build or do
+labels: ["type: feature"]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: User story
+      description: "As a <role>, I want <goal>, so that <reason>."
+      placeholder: As a student, I want to sign in with my university email, so that my university is detected automatically.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How we know it's done. One checkbox per testable condition.
+      value: |
+        - [ ]
+        - [ ] Works in Arabic and English
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - frontend
+        - backend
+        - full-stack
+        - docs / process
+        - content
+    validations:
+      required: true
+  - type: dropdown
+    id: size
+    attributes:
+      label: Size estimate
+      description: "S ≈ an evening · M ≈ 2–3 sessions · L = split it into smaller issues"
+      options:
+        - S
+        - M
+        - L (split me)
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes, links, design

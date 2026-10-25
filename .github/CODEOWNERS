@@ -1,0 +1,7 @@
+# Code owners are requested for review automatically.
+# Once teammates join the org, split by area, e.g.:
+#   /apps/web/   @mobilitybridge/frontend
+#   /apps/api/   @mobilitybridge/backend
+#   /docs/adr/   @Haithamak24
+
+*   @Haithamak24

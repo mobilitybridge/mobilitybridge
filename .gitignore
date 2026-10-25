@@ -1,0 +1,55 @@
+# ── Secrets: never commit ──────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+secrets/
+
+# ── Real data: never commit (repo is public) ──────────
+data/
+*.csv
+*.xlsx
+*.xls
+!**/fixtures/**/*.csv
+!**/demo-data/**/*.csv
+
+# ── Node / Next.js ────────────────────────────────────
+node_modules/
+.next/
+out/
+.turbo/
+.vercel/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# ── Java / Spring / Maven / Gradle ────────────────────
+target/
+/apps/*/build/
+.gradle/
+*.class
+hs_err_pid*
+
+# ── Test output ───────────────────────────────────────
+playwright-report/
+test-results/
+
+# ── IDEs and OS ───────────────────────────────────────
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Local Docker volumes ──────────────────────────────
+.docker-data/
