@@ -38,7 +38,7 @@ CONTRIBUTING.md   how we work: branches, PRs, reviews, definition of done
 CLAUDE.md         rules every AI coding assistant must follow in this repo
 ```
 
-`apps/web` (frontend) and `apps/api` (backend) arrive after the NEO meeting.
+`apps/alumni-directory` is the alumni directory NEO asked for in November (demo in early December, see its README). `apps/web` (frontend) and `apps/api` (backend) for the student portal come later.
 
 ## Team
 

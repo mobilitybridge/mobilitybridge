@@ -4,7 +4,7 @@ You are helping build **MobilityBridge**, a national Erasmus+ mobility portal fo
 
 ## Project state
 
-- **Planning stage (Sprint 0).** There is no application code yet.
+- **Planning stage (Sprint 0)** for the student portal. The only application code is `apps/alumni-directory`, the NEO alumni directory demo (Vite + Supabase, see `docs/adr/0004-alumni-directory-demo-stack.md` and its README).
 - The stack in `docs/adr/0003-proposed-stack.md` is **Proposed, not Accepted**. Do not scaffold `apps/web` or `apps/api` until that ADR is marked Accepted.
 - Product context: `docs/product/plan.md`. Team rules: `CONTRIBUTING.md`.
 
