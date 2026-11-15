@@ -1,0 +1,103 @@
+{
+  "app": { "title": "Erasmus+ Alumni Directory" },
+  "common": {
+    "loading": "Loading…",
+    "back": "Back",
+    "comingSoon": "This page is being built.",
+    "switchLanguage": "العربية",
+    "listSeparator": ", "
+  },
+  "nav": { "directory": "Directory", "dashboard": "Dashboard", "import": "Import" },
+  "auth": {
+    "title": "NEO sign in",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "failed": "Wrong email or password.",
+    "notAdmin": "This account is not a NEO admin."
+  },
+  "alumniForm": { "title": "Erasmus+ alumni: register or update your information" },
+  "directory": { "title": "Alumni directory" },
+  "dashboard": { "title": "Dashboard" },
+  "fields": {
+    "full_name_ar": "Name (Arabic)",
+    "full_name_en": "Name (English)",
+    "email": "Email",
+    "phone": "Phone",
+    "gender": "Gender",
+    "home_university": "Home university",
+    "field_of_study": "Field of study",
+    "host_country": "Host country",
+    "host_institution": "Host university",
+    "program": "Program",
+    "level": "Level",
+    "academic_year": "Academic year",
+    "start_date": "Start date",
+    "end_date": "End date",
+    "current_job_title": "Current job",
+    "current_organization": "Current organization",
+    "linkedin_url": "LinkedIn"
+  },
+  "issues": {
+    "missing_name": "no name",
+    "unknown_country": "country not recognised",
+    "missing_host_institution": "no host university",
+    "unknown_university": "home university not recognised (left empty)",
+    "unreadable_year": "academic year not readable (left empty)",
+    "unknown_program": "program not recognised (saved as Other)",
+    "invalid_email": "email not valid (left empty)"
+  },
+  "import": {
+    "title": "Import alumni from Excel",
+    "intro": "Upload a sheet in any layout. You match its columns to ours, check duplicates, then save.",
+    "pick": { "label": "Choose an Excel (.xlsx) or CSV file", "hint": "The first sheet is read. One row per person or per trip both work." },
+    "map": {
+      "intro": "{{rows}} rows found. Check which column holds each field. We guessed from the headers.",
+      "ourField": "Our field",
+      "theirColumn": "Column in your sheet",
+      "example": "Example value",
+      "notInSheet": "— not in this sheet —",
+      "column": "Column {{n}}",
+      "missing": "Still needed: {{fields}}",
+      "next": "Check for duplicates"
+    },
+    "review": {
+      "new": "New people",
+      "sameEmail": "Already in directory (same email)",
+      "possible": "Possible duplicates",
+      "errors": "Rows that can't be imported",
+      "comparedWith": "Compared with {{count}} people already in the directory.",
+      "warnings_one": "{{count}} value was left empty because it couldn't be read.",
+      "warnings_other": "{{count}} values were left empty because they couldn't be read.",
+      "errorsTitle": "Rows that won't be imported",
+      "row": "Row {{row}}",
+      "person": "Person",
+      "trips": "Mobilities",
+      "match": "Already in directory?",
+      "action": "What to do",
+      "matchKind": { "email": "Same email", "name": "Similar name, same university", "none": "No" },
+      "actions": {
+        "insert": "Add as new",
+        "insertFlagged": "Add as new (flag to check)",
+        "merge": "Same person: add to existing",
+        "skip": "Skip"
+      },
+      "save_one": "Save {{count}} person",
+      "save_other": "Save {{count}} people"
+    },
+    "done": {
+      "title": "Import finished",
+      "inserted": "{{count}} added as new",
+      "merged": "{{count}} added to existing records",
+      "skipped": "{{count}} skipped",
+      "mobilities": "{{count}} mobilities added",
+      "again": "Import another file"
+    },
+    "errors": {
+      "unreadable": "This file couldn't be read. Use .xlsx or .csv with a header row.",
+      "loadFailed": "Couldn't load data from the server. Check your connection and try again.",
+      "saveFailed": "Saving failed, and nothing was imported. Try again."
+    }
+  }
+}
